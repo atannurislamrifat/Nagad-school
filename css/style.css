@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+select{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+input{
+    padding: 5px ;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+html,body{
+    overflow-x: hidden;
+}
+/* ===================start================ */
+
+/* ==============nav css start=========== */
+
+nav{
+    background: #112;
+
+}
+nav .red{
+    color: red;
+}
+nav ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    transition: .5s;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+/* ==============nav css end=========== */
+
+/* ==============banner-part strat=========== */
+
+#banner-part{
+    
+    
+    background:url(../images/bannner.png)no-repeat center;
+    background-size: cover;
+
+    
+}
+#banner-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+ 
+    padding: 100px 0;
+    
+
+}
+#banner-part .overlay h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+
+    text-align: center;
+    color: #fff;
+    
+   
+}
+#banner-part .overlay .main{
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+
+    
+}
+#banner-part .overlay .years{
+    margin:0 15px
+}
+#banner-part .overlay .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#banner-part .overlay .btn button{
+    border-radius: 10px;
+    border: 0px;
+    background: rgb(245, 37, 37);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    
+    padding: 10px 15px;
+    transition: .5s;
+    
+}
+
+
+
+
+/* /* ==============banner-part end======= */
+
+/* /* ==============member start======= */
+#member{
+    padding: 100px 0;
+}
+#member .member-slider{
+    margin-top: 50px;
+}
+
+#member .iteam .img{
+    position: relative;
+}
+#member .iteam .img .overlay{
+    width: 100px;
+    height: 40px;
+    background: rgb(245, 37, 37);
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#member .iteam .img .overlay a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    transform: translate(10px, 10px);
+}
+
+#member .iteam .img img{
+    
+        border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#member .iteam .text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+
+}
+#member .iteam .text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* /* ==============member-part end======= */
+
+/* /* ==============company-part end======= */
+
+#company{
+    padding: 70px 0;
+}
+#company .details h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#company .details h3{
+    padding-bottom: 10px;
+}
+#company .details .co{
+    width: 40%;
+    margin-bottom: 10px;
+
+}
+#company .details .mar{
+    margin-right: 54px;
+    margin-top: 20px;
+}
+#company .details .mail{
+    margin-left: 155px;
+}
+#company .details .main{
+    padding-bottom: 20px;
+}
+label{
+    margin-right: 10px;
+}
+#company button{
+    padding: 10px 25px ;
+    border-radius: 10px;
+    border: 0px;
+    background: rgb(245, 37, 37);
+    color: #fff;
+    margin-left: 170px;
+    
+}
+button p{
+    text-align: center;
+}
+#company .gap p{
+    
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        
+    
+}
+
+/* /* ==============company-part end======= */
+
+
+/* /* ==============job profile start======= */
+
+.ex{
+    margin-left: 100px;
+    width: 176px;
+}
+.mai{
+    margin-left: 233px;
+}
+textarea{
+
+    width: 441px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#company .company-new h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+#company .company-new i{
+    font-size: 20px;
+   
+    margin-bottom: 10px;
+}
+
+/* /* ==============jon profile end end======= */
+/* =========job-profile============== */
+
+#profile .job-profile{
+    background: #f5f5f5;
+    
+    position: relative;
+
+}
+#profile .job-profile .main{
+    display: flex;
+}
+
+
+#profile .job-profile .img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    position: relative;
+    top: 35px;
+    left: 15px;
+    border: 1px solid #000;
+
+
+}
+#profile .job-profile .text{
+    margin-left: 35px;
+}
+#profile .job-profile .text h4{
+    margin-top: 67px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#profile .job-profile .text button{
+    padding: 10px 15px;
+    border-radius: 25px;
+    background: green;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    margin-top: 35px;
+    color: #fff;
+
+}
+#profile .job-profile .box{
+    border: 1px solid #000;
+   
+    position: absolute;
+    top: 77px;
+    left: 63%;
+}
+#profile .job-profile .box .youtube{
+    background: #fff;
+    border-bottom: 1px solid#000;
+    padding: 30px 0;
+
+    
+    
+
+}
+#profile .job-profile .box .youtube i{
+    font-size: 130px;
+    color: red;
+    transform: translateX(68px);
+    
+}
+#profile .job-profile .box .text-line{
+    padding: 40px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+#profile .job-profile .box .text-line p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 7px;
+}
+#profile .job-profile .box .text-line a{
+    display: inline-block;
+    color:#fff;
+    background: red;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #000;
+    border-bottom: 0;
+    
+    margin: 0 10px;
+    margin-top: 40px;
+
+}
+#profile .about{
+    margin-top: 80px;
+}
+#profile .about h4{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#profile .about .area{
+    width: 61%;
+    height: 180px;
+    border-radius: 20px;
+}
+#profile .about .next{
+    width: 86%;
+    
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+
+/* ========== job profile end=========== */
+
+
+/* ===========chat-box start=========== */
+#chat{
+    padding-top: 50px;
+    padding-bottom: 100px;
+   
+}
+#chat .container{
+    border: 1px solid #000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#chat .line{
+    border-left: 1px solid#000;
+}
+
+#chat .details{
+    border: 1px solid#000;
+    
+    margin-top: 50px;
+    border-radius: 20px;
+}
+#chat .show .intext{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+#chat .inbox{
+    width: 100%;
+    border: 1px solid#000;
+    height: 100px;
+}
+#chat .text{
+    border-bottom: 1px solid #000;
+    padding: 20px 0;
+
+}
+#chat .text h4{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+}
+#chat .live .intext{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 100px;
+    
+ 
+}
+#chat .live .intext:last-child{
+display: flex;
+justify-content: flex-end;
+margin-right: 10px;
+}
+#chat .live .intext img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid#000;
+}
+#chat .live .intext h4{
+    margin-left: -55px;
+    border-top: 1px solid#000;
+    border-bottom: 1px solid#000;
+    border-right: 1px solid#000;
+    padding: 0 80px;
+    line-height: 77px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+#chat .main{
+    justify-content: center;
+    display: flex;
+    
+
+}
+#chat .main a{
+    display: inline-block;
+    color: #fff;
+    background: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 10px;
+
+}
+#chat .send{
+    border-top: 1px solid#000;
+    display: flex;
+}
+#chat .send .input{
+    width: 70%;
+    border-right: 1px solid #000;
+    
+}
+#chat .send .input input{
+    width: 100%;
+    border: 0;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#chat .send .button{
+    width: 30%;
+}
+#chat .send  .button button{
+    width: 100%;
+    padding: 20px 25px;
+    background: transparent;
+
+    border: 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+/* ===========chat-box end=================== */

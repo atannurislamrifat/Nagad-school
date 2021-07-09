@@ -1,0 +1,186 @@
+@media (min-width:320px) and (max-width:575px){
+
+    /* ======nav============= */
+    nav i{
+    color: #fff;
+    }
+    nav ul li {
+        margin: 0;
+        text-align: center;
+    }
+    #banner-part .overlay h3{
+        font-size: 33px;
+    }
+    #banner-part .overlay .main{
+        display: block;
+        text-align: center;
+    }
+    #banner-part .overlay .years{
+        margin: 5px 0;
+    }
+   
+
+
+    /* ================nav end============ */
+
+    /* ==========company============ */
+
+    #company .details .co {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #company .details .mail {
+        margin-left: 0;
+        position: relative;
+        top: 89px;
+        left: -111px;
+    }
+    #company .main .mac{
+        margin-top: 40px;
+    }
+    #company .details .mar{
+        margin-bottom: 40px;
+    }
+    textarea{
+        width: 294px;
+    }
+    .mai{
+        margin-left: 130px;
+    }
+    .ex {
+        margin-left: 0;
+        width:auto;
+    }
+    #company button{
+        text-align: center;
+        margin-left: 90px;
+        
+    }
+    /* ================company end======= */
+
+    /* ===========job seeker============= */
+
+    #profile .job-profile .box{
+        left: 0;
+        top: 410%;
+    }
+    #profile .job-profile .img img{
+        width: 150px;
+        height: 150px;
+        top: 76px;
+    }
+    #profile .job-profile .text h4{
+        margin-top: 100px;
+        font-size: 19px;
+    }
+    #profile .about .area{
+        width: 100%;
+    }
+    #profile .about .next{
+        width: 100%;
+    }
+
+    /* =========job seeker end=========== */
+    /* =================chat========= */
+    #chat .line{
+        border-left: none;
+    }
+    #chat .live .intext h4{
+        line-height: 25px;
+        font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    }
+    #chat .live .intext{
+        margin-right: 10px;
+    }
+    #chat .send .input input{
+        font-size: 16px;
+    }
+    #chat .send .button button{
+        font-size: 16px;
+    }
+    /* =========chat end=================== */
+}
+@media (min-width:576px) and (max-width:767px){
+    /* ==========nav============ */
+
+    nav i{
+        color: #fff;
+        }
+        nav ul li {
+            margin: 0;
+            text-align: center;
+        }
+        #banner-part .overlay h3{
+            font-size: 33px;
+        }
+        /* =============nav end========== */
+         /* ===========job seeker============= */
+
+    #profile .job-profile .box{
+        left: 23%;
+        top: 410%;
+    }
+    #profile .job-profile .img img{
+        width: 150px;
+        height: 150px;
+        top: 76px;
+    }
+    #profile .job-profile .text h4{
+        margin-top: 100px;
+        font-size: 19px;
+    }
+    #profile .about .area{
+        width: 100%;
+    }
+    #profile .about .next{
+        width: 100%;
+    }
+    #chat .line{
+        border-left: none;
+    }
+
+    /* =========job seeker end=========== */
+      
+}
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    /* ==========nav============ */
+
+    nav i{
+        color: #fff;
+        }
+        nav ul li {
+            margin: 0;
+            text-align: center;
+        }
+        #banner-part .overlay h3{
+            font-size: 33px;
+        }
+    }
+    /* ============job-============== */
+
+    #profile .job-profile .box .text-line a{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    /* =========job============= */
+      
+    #chat .line{
+        border: none;
+    }
+    
+@media (min-width:992px) and (max-width:1199px){
+    #chat .line{
+        border-left: 1px solid#000;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    #chat .line{
+        border-left: 1px solid#000;
+    }
+}
