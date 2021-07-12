@@ -24,6 +24,9 @@
     /* ================nav end============ */
 
     /* ==========company============ */
+    #member .new p{
+        width: 303px;
+    }
 
     #company .details .co {
         width: 100%;
@@ -53,7 +56,6 @@
     }
     #company button{
         text-align: center;
-        margin-left: 90px;
         
     }
     /* ================company end======= */
@@ -101,6 +103,20 @@
         font-size: 16px;
     }
     /* =========chat end=================== */
+
+    #login .login-part{
+        width: 295px;
+    }
+    .maclos{
+        margin-left:-53px;
+    }
+    #company .together{
+        display: block;
+        margin-left: 0px;
+    }
+    #profile .job-profile .box{
+        display: none;
+    }
 }
 @media (min-width:576px) and (max-width:767px){
     /* ==========nav============ */
@@ -117,6 +133,7 @@
         }
         /* =============nav end========== */
          /* ===========job seeker============= */
+
 
     #profile .job-profile .box{
         left: 23%;
@@ -142,6 +159,23 @@
     }
 
     /* =========job seeker end=========== */
+
+    select{
+        font-size: 14px;
+        padding: 9px;
+    }
+    #banner-part .overlay .btn button{
+        padding: 7px 18px;
+    }
+    #member .new p{
+        width: 500px;
+    }
+    #company .details .co{
+        width: 90%;
+    }
+    #profile .job-profile .box{
+        display: none;
+    }
       
 }
 
@@ -149,6 +183,10 @@
 
 
 @media (min-width:768px) and (max-width:991px){
+
+    #company .details .co{
+        width: 63%;
+    }
     /* ==========nav============ */
 
     nav i{
@@ -177,6 +215,9 @@
 @media (min-width:992px) and (max-width:1199px){
     #chat .line{
         border-left: 1px solid#000;
+    }
+    #company .details .co{
+        width: 47%;
     }
 }
 @media (min-width:1200px) and (max-width:1399px){

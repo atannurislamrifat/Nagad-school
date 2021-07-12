@@ -17,10 +17,10 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
 select{
-    padding: 5px;
+    padding: 14px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     margin-top: 5px;
 }
@@ -103,18 +103,18 @@ nav ul li a:hover{
 #banner-part .overlay .btn{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    
 }
 #banner-part .overlay .btn button{
     border-radius: 10px;
     border: 0px;
     background: rgb(245, 37, 37);
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     color: #fff;
     
-    padding: 10px 15px;
+    padding: 14px 18px;
     transition: .5s;
     
 }
@@ -127,6 +127,17 @@ nav ul li a:hover{
 /* /* ==============member start======= */
 #member{
     padding: 100px 0;
+    
+    
+}
+#member .new p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+
 }
 #member .member-slider{
     margin-top: 50px;
@@ -144,6 +155,8 @@ nav ul li a:hover{
     left: 33%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transition: .5s;
+     opacity: 0;
 }
 #member .iteam .img .overlay a{
     font-family: 'Open Sans', sans-serif;
@@ -152,7 +165,13 @@ nav ul li a:hover{
     display: inline-block;
     color: #fff;
     transform: translate(10px, 10px);
+   
+    
 }
+#member .iteam:hover .img .overlay {
+    opacity: 1;
+}
+
 
 #member .iteam .img img{
     
@@ -177,8 +196,24 @@ nav ul li a:hover{
 
 /* /* ==============company-part end======= */
 
+
+
 #company{
     padding: 70px 0;
+}
+#company .details {
+    text-align: center;
+
+}
+
+#company .together{
+    display: flex;
+    justify-content: center;
+    margin-left: 111px;
+}
+
+#company .together  .upload-box{
+    margin-top: 18px;
 }
 #company .details h1{
     text-align: center;
@@ -197,7 +232,7 @@ nav ul li a:hover{
     margin-top: 20px;
 }
 #company .details .mail{
-    margin-left: 155px;
+    margin-left: 127px;
 }
 #company .details .main{
     padding-bottom: 20px;
@@ -211,7 +246,7 @@ label{
     border: 0px;
     background: rgb(245, 37, 37);
     color: #fff;
-    margin-left: 170px;
+
     
 }
 button p{
@@ -222,6 +257,7 @@ button p{
         font-size: 20px;
         font-weight: 400;
         font-family: 'Open Sans', sans-serif;
+        padding: 20px 0;
         
     
 }
@@ -346,10 +382,12 @@ textarea{
     color:#fff;
     background: red;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-    border: 1px solid #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    
     border-bottom: 0;
     
     margin: 0 10px;
@@ -511,3 +549,148 @@ margin-right: 10px;
 }
 
 /* ===========chat-box end=================== */
+
+/* =======login page=== */
+#login{
+    background: url(../images/banner1.jpg)no-repeat center;
+    background-position: cover;
+    padding: 100px 0;
+}
+#login h2{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+#login .login-part{
+    border: 1px solid red;
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+#login .login-part input{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+#login .login-part a{
+    display: inline-block;
+    color:#fff ;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background: red;
+    transition: .4s;
+    padding: 5px;
+    
+}
+#login .login-part a:hover{
+    background:rgb(10, 10, 194);
+}
+
+
+#login .login-part .green{
+    display: inline-block;
+    color:#fff ;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background:#00a400;
+    transition: .4s;
+    padding: 5px;
+    
+}
+#login .login-part p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+
+}
+
+
+
+/* ===========login page end======= */
+
+/* ========================================
+        footer part start  3rd  css sart
+============================================ */
+#footer-last{
+    background: #444444;
+    padding: 20px 0;
+    text-align: center;
+}
+#footer-last .iteam{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+  
+}
+#footer-last .iteam a{
+    display: inline-block;
+    color: #fec600;
+
+}
+
+
+
+
+
+
+/* ========================================
+    footer part start 3rd   css end
+============================================ */
+
+/* ==========skills -part============= */
+#skills-part{
+    padding: 50px 0;
+}
+
+#skills-part .img{
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+#skills-part .img img{
+    
+    width: 70px;
+
+}
+#skills-part .img p::after{
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    width: 50px;
+    height: 2px;
+    background:#c5c6c9;
+    transform: translateX(-50%);
+    transition: .4s;
+    content: "";
+}
+#skills-part .img:hover p::after{
+    background: red;
+    width: 100px;
+}
+#skills-part .img p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    margin: 15px 0;
+}
+
+
+
+/* ==========skills -part end============= */
+
